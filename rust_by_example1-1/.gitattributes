@@ -1,15 +1,17 @@
-# Ignore JetBrains project config files
+# Ignore JetBrains IDE files
 .idea/* linguist-generated
 
-# Ignore Cargo build output
+# Ignore Rust target build directory
 target/* linguist-generated
 
-# Ignore Cargo lock file
+# Ignore generated lock and config files
 Cargo.lock linguist-generated
-
-# Ignore hidden Rust cache files
 .cargo-lock linguist-generated
 .rustc_info.json linguist-generated
-
-# Ignore build dependency files
 main.d linguist-generated
+main.pdb linguist-generated
+main.exe linguist-generated
+main.json linguist-generated
+
+# Ignore Windows-generated file
+CACHEDIR.TAG linguist-generated
