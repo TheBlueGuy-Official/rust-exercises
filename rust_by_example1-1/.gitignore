@@ -1,0 +1,18 @@
+# Rust build output
+/target/
+
+# IDE files
+.idea/
+
+# Cargo package files
+Cargo.lock
+
+# Executables and debug files
+*.exe
+*.pdb
+*.dll
+*.so
+*.dylib
+
+# Misc
+.DS_Store
