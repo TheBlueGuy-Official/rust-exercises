@@ -1,0 +1,15 @@
+# Ignore JetBrains project config files
+.idea/* linguist-generated
+
+# Ignore Cargo build output
+target/* linguist-generated
+
+# Ignore Cargo lock file
+Cargo.lock linguist-generated
+
+# Ignore hidden Rust cache files
+.cargo-lock linguist-generated
+.rustc_info.json linguist-generated
+
+# Ignore build dependency files
+main.d linguist-generated
