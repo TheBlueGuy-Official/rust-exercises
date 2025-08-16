@@ -1,17 +1,20 @@
-# Ignore JetBrains IDE files
+# Mark IDE config files as generated (exclude from language stats)
 .idea/* linguist-generated
 
-# Ignore Rust target build directory
+# Ignore Rust build output
 target/* linguist-generated
 
-# Ignore generated lock and config files
+# Ignore Cargo lock and metadata files
 Cargo.lock linguist-generated
 .cargo-lock linguist-generated
 .rustc_info.json linguist-generated
-main.d linguist-generated
-main.pdb linguist-generated
-main.exe linguist-generated
-main.json linguist-generated
 
-# Ignore Windows-generated file
+# Ignore executables and debug files
+*.exe linguist-generated
+*.pdb linguist-generated
+*.dll linguist-generated
+*.so linguist-generated
+*.dylib linguist-generated
+
+# Ignore miscellaneous cache
 CACHEDIR.TAG linguist-generated
