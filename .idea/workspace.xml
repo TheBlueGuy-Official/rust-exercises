@@ -9,9 +9,22 @@
         <enabledFeature name="default" />
       </package>
     </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/rust_by_example1-2/Cargo.toml">
+      <package file="$PROJECT_DIR$/rust_by_example1-2">
+        <enabledFeature name="default" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/moz/Cargo.toml">
+      <package file="$PROJECT_DIR$/moz">
+        <enabledFeature name="default" />
+      </package>
+    </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43ca8c7a-5f4b-4556-9f1e-9ca35321bd47" name="Changes" comment="Update .gitattr and .gitignore" />
+    <list default="true" id="43ca8c7a-5f4b-4556-9f1e-9ca35321bd47" name="Changes" comment="Update .gitattr and .gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +82,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Rust_Projects\rust-exercises\rust_by_example1-2" />
       <recent name="D:\Rust_Projects\rust-exercises" />
       <recent name="D:\Rust_Projects\rust-exercises\rust_by_example1-1" />
     </key>
@@ -104,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755372515090</updated>
       <workItem from="1755372517587" duration="2405000" />
-      <workItem from="1755786093602" duration="833000" />
+      <workItem from="1755786093602" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="Update .gitattr and .gitignore">
       <option name="closed" value="true" />

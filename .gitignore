@@ -3,7 +3,6 @@
 
 # IDE config folders
 */.idea/
-*/.vscode/
 
 # Cargo package files
 */Cargo.lock
