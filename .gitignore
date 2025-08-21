@@ -2,7 +2,7 @@
 */target/
 
 # IDE config folders
-*/.idea/
+.idea/
 
 # Cargo package files
 */Cargo.lock
