@@ -1,11 +1,12 @@
-# Rust build output
-/target/
+# Rust build output (any exercise folder)
+*/target/
 
 # IDE config folders
-.idea/
+*/.idea/
+*/.vscode/
 
 # Cargo package files
-Cargo.lock
+*/Cargo.lock
 
 # Executables and debug files
 *.exe
@@ -14,5 +15,6 @@ Cargo.lock
 *.so
 *.dylib
 
-# Miscellaneous
+# OS / misc
 .DS_Store
+Thumbs.db
