@@ -1,5 +1,5 @@
 # Mark IDE config files as generated (exclude from language stats)
-*/.idea linguist-generated
+.idea linguist-generated
 
 # Ignore Rust build output
 */target/* linguist-generated
