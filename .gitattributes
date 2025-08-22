@@ -1,4 +1,4 @@
-# Mark IDE config files as generated (exclude from language stats)
+# Mark IDE config files as generated (excludeing from language stats)
 .idea linguist-generated
 
 # Ignore Rust build output
